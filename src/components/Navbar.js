@@ -24,7 +24,6 @@ export default function Navbar() {
         <MDBNavbarBrand href='#'>
           <div class='d-flex flex-column'>
           Robert A. Farrell, Ph.D., ABPP
-          <span>Individual, Couple, Group, and Teletherapy Sessions</span>
           </div>
           </MDBNavbarBrand>
         <MDBNavbarToggler

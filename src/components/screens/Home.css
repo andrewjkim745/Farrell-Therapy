@@ -1,0 +1,9 @@
+.titleOverlay {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 30%;
+    left: 25%;
+    margin: 0 auto;
+    color: seashell;
+}

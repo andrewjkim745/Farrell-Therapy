@@ -5,12 +5,12 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 
 
 
-export const TextContainer = ({src}) => {
+export const TextContainer = ({children}) => {
 
     return (
         <>
         <MDBContainer>
-            <img src={src}/>
+            {children}
         </MDBContainer>
       </>
     )

@@ -17,13 +17,13 @@ export default function Navbar() {
   return (
     <>
     <MDBRow>
-      <div className='mr-4bg-light d-flex justify-content-center'>631-891-9715 | robert@robertfarrelltherapy.com</div>
+      <div className='mr-4 bg-light d-flex justify-content-center'><h6 class='is-size-6-mobile'>631-891-9715 | robert@robertfarrelltherapy.com</h6></div>
     </MDBRow>
      <MDBNavbar sticky expand='lg' dark bgColor='info'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
           <div class='d-flex flex-column'>
-          Robert A. Farrell, Ph.D., ABPP
+          <h1 class='has-text-weight-light is-size-6-mobile is-size-4-desktop'>Robert A. Farrell, Ph.D., ABPP</h1>
           </div>
           </MDBNavbarBrand>
         <MDBNavbarToggler

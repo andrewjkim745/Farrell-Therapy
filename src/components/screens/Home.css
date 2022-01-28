@@ -7,3 +7,15 @@
     margin: 0 auto;
     color: seashell;
 }
+
+
+.Amatic { 
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.borderBottom {
+    border-bottom: 2px solid black;
+}

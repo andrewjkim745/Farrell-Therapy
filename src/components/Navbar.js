@@ -39,18 +39,18 @@ export default function Navbar() {
         <MDBCollapse show={showNavColor} navbar>
           <MDBNavbarNav right fullWidth={false} className='ms-auto'>
             <MDBNavbarItem className='active'>
-              <MDBNavbarLink aria-current='page'>
+              <MDBNavbarLink  aria-current='page'>
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
-              <MDBNavbarLink  >About</MDBNavbarLink>
+              <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='#about' >About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
               <MDBNavbarLink >Services</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
-              <MDBNavbarLink>Contact</MDBNavbarLink>
+              <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='#contact'>Contact</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

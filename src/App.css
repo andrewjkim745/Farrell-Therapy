@@ -1,3 +1,16 @@
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+#about, #contact {
+  scroll-margin-top: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+   #about {
+      scroll-margin-top: 230px !important;
+   }
+  }

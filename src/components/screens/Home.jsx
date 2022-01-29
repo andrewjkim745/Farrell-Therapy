@@ -23,8 +23,9 @@ export default function Home() {
                     />
                 </div>
             </ImageContainer>
-            <TextContainer>
+            <TextContainer id='about'>
                 <Title
+                    
                     aos='fade-left'
                     title='Welcome to my website'
                     additonalClass='has-text-centered py-3 Amatic borderBottom'

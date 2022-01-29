@@ -16,10 +16,12 @@ export const Footer = () => {
                     <div class="col-lg-6 col-md-12 mb-4 mb-md-0 has-text-centered">
                         <h5 class="text-uppercase">Locations</h5>
                         <p>
+                        <i class="fas fa-map-marker-alt me-3"></i>
                             10 Grace Ave Office #6
                             Great Neck, NY 11021
                         </p>
                         <p>
+                        <i class="fas fa-map-marker-alt me-3"></i>
                             7 Laura Ct.
                             Mt. Sinai, NY 11766
                         </p>

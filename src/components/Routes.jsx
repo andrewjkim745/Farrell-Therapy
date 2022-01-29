@@ -10,7 +10,7 @@ import React, {useEffect} from "react";
 export const Router = () => {
 
     useEffect(() => {
-        Aos.init({duration: 2000});
+        Aos.init({duration: 2000, offset: 400});
     }, []);
     return (
         <BrowserRouter>

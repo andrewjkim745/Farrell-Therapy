@@ -12,7 +12,7 @@ import {
     MDBRow
 } from 'mdb-react-ui-kit';
 
-export default function Navbar() {
+export const Navbar = () => {
     const [showNavColor, setShowNavColor] = useState(false);
   return (
     <>

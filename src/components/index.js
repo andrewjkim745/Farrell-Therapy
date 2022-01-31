@@ -2,12 +2,15 @@ import { TextContainer } from "./shared/TextContainer"
 import { ImageContainer } from "./shared/ImageContainer"
 import { ColumnsContainer } from "./shared/ColumnsContainer"
 import { Title } from "./shared/Title"
-import { Footer } from '../components/footer'
+import { Footer } from './footer'
+import { Navbar } from "./Navbar"
 
 export {
     TextContainer,
     ImageContainer,
     Title,
     ColumnsContainer,
-    Footer
+    Footer,
+    Navbar
+   
 }

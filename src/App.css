@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 body {
-  font-family: 'Josefin Sans', cursive;
+  font-family: 'Josefin Sans', cursive !important;
 }
 
 html {

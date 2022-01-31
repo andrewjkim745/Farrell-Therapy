@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer id='contact' class="bg-light text-center text-lg-start pt-6">
             <Title
                 title='Robert A. Farrell, Ph.D., ABPP'
-                additonalClass='has-text-centered'
+                additonalClass='has-text-centered Cinzel'
             />
             <div class="container p-5">
                 <div class="row">

@@ -16,7 +16,7 @@ export default function Home() {
                 <div>
                     <Title
                         aos='fade-up'
-                        additonalClass='titleOverlay'
+                        additonalClass='titleOverlay Cinzel'
                         title='Individual, Couple, Group, and Teletherapy Sessions'
                     />
                 </div>
@@ -24,8 +24,8 @@ export default function Home() {
             <TextContainer id='about'>
                 <Title
                     aos='fade-left'
-                    title='Welcome to my website'
-                    additonalClass='has-text-centered py-3 Amatic borderBottom'
+                    title='Welcome'
+                    additonalClass='has-text-centered py-3 Cinzel borderBottom'
                 />
                <ColumnsContainer
                src={Farrell}

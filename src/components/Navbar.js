@@ -23,7 +23,7 @@ export const Navbar = () => {
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
           <div class='d-flex flex-column'>
-          <h1 class='has-text-weight-light is-size-6-mobile is-size-4-desktop'>Robert A. Farrell, Ph.D., ABPP</h1>
+          <h1 class='is-size-6-mobile is-size-4-desktop'>Robert A. Farrell, Ph.D., ABPP</h1>
           </div>
           </MDBNavbarBrand>
         <MDBNavbarToggler

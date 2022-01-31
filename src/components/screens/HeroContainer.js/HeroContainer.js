@@ -19,7 +19,7 @@ export default function App() {
       imageData.map((image, index) => {
 
         return (
-          <MDBCarouselItem className={activeImage === index ? 'active' : null}>
+          <MDBCarouselItem itemId={index} className={activeImage === index ? 'active' : null}>
             <MDBCarouselElement className='img-fluid shadow-4 responsive'  src={image} alt='...' />
           </MDBCarouselItem>
         )

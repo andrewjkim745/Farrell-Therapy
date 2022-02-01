@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Dongle');
 body {
   font-family: 'Josefin Sans', cursive !important;
 }
 
 .Cinzel {
-  font-family: 'Cinzel', serif !important;
+  font-family: 'Dongle', sans-serif !important;
 }
 
 html {

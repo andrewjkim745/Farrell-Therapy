@@ -19,3 +19,7 @@
 .borderBottom {
     border-bottom: 2px solid black;
 }
+
+.borderBottomW {
+    border-bottom: 2px solid white;
+}

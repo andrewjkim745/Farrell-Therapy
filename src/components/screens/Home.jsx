@@ -16,7 +16,7 @@ export default function Home() {
                 <div>
                     <Title
                         aos='fade-up'
-                        additonalClass='titleOverlay Cinzel'
+                        additonalClass='titleOverlay Cinzel borderBottomW'
                         title='Individual, Couple, Group, and Teletherapy Sessions'
                     />
                 </div>

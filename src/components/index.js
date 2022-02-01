@@ -6,6 +6,9 @@ import { Footer } from './footer'
 import { Navbar } from "./Navbar"
 import { Jumbotron } from "./shared/JumboTron"
 import { TwoColumns } from "./shared/TwoColumns"
+import { AltTwoColumns } from "./shared/AltTwoColumns"
+
+
 export {
     TextContainer,
     ImageContainer,
@@ -14,6 +17,7 @@ export {
     Footer,
     Navbar,
     Jumbotron,
-    TwoColumns
+    TwoColumns,
+    AltTwoColumns
    
 }

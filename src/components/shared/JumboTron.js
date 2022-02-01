@@ -3,7 +3,7 @@ import React from "react";
 
 export const Jumbotron = ({ src }) => {
     return (
-        <div
+        <div data-aos='fade-in'
             class="p-5 text-center bg-image rounded-3 "
             style={{ minHeight: 500, maxHeight: 600, backgroundSize: 'cover', backgroundImage: `url(${src})`}}
         >

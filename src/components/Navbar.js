@@ -23,7 +23,7 @@ export const Navbar = () => {
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
           <div class='d-flex flex-column'>
-          <h1 class='is-size-6-mobile is-size-4-desktop'>Robert A. Farrell, Ph.D., ABPP</h1>
+          <h2 class='is-size-6-mobile is-size-4-desktop'>Robert A. Farrell, Ph.D., ABPP</h2>
           </div>
           </MDBNavbarBrand>
         <MDBNavbarToggler
@@ -39,12 +39,12 @@ export const Navbar = () => {
         <MDBCollapse show={showNavColor} navbar>
           <MDBNavbarNav right fullWidth={false} className='ms-auto'>
             <MDBNavbarItem className='active'>
-              <MDBNavbarLink  aria-current='page'>
+              <MDBNavbarLink  href='/'aria-current='page'>
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
-              <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='#about' >About</MDBNavbarLink>
+              <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='/about' >About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
               <MDBNavbarLink >Services</MDBNavbarLink>

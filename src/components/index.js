@@ -4,6 +4,7 @@ import { ColumnsContainer } from "./shared/ColumnsContainer"
 import { Title } from "./shared/Title"
 import { Footer } from './footer'
 import { Navbar } from "./Navbar"
+import { Jumbotron } from "./shared/JumboTron"
 
 export {
     TextContainer,
@@ -11,6 +12,7 @@ export {
     Title,
     ColumnsContainer,
     Footer,
-    Navbar
+    Navbar,
+    Jumbotron
    
 }

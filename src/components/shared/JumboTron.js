@@ -4,8 +4,8 @@ import React from "react";
 export const Jumbotron = ({ src }) => {
     return (
         <div
-            class="p-5 text-center bg-image rounded-3"
-            style={{ height: 400, backgroundImage: `url(${src})`}}
+            class="p-5 text-center bg-image rounded-3 "
+            style={{ minHeight: 500, maxHeight: 600, backgroundSize: 'cover', backgroundImage: `url(${src})`}}
         >
             <div class="mask">
                 <div class="d-flex justify-content-center align-items-center h-100">

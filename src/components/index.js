@@ -5,7 +5,7 @@ import { Title } from "./shared/Title"
 import { Footer } from './footer'
 import { Navbar } from "./Navbar"
 import { Jumbotron } from "./shared/JumboTron"
-
+import { TwoColumns } from "./shared/TwoColumns"
 export {
     TextContainer,
     ImageContainer,
@@ -13,6 +13,7 @@ export {
     ColumnsContainer,
     Footer,
     Navbar,
-    Jumbotron
+    Jumbotron,
+    TwoColumns
    
 }

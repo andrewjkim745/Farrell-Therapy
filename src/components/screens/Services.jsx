@@ -17,13 +17,12 @@ export default function Services() {
                 return <ServicesDefault handleClick={handleClick}/>
             case 'CV':
                 return <CV handleClick={handleClick}/>
-            case 'services':
+            case 'rates':
                 return <Rates handleClick={handleClick}/>
             default: return null
         }
     }
     return (
-        <ServicesDefault
-        />
+        switchScreens()
     )
 }

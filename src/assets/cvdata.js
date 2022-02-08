@@ -1,5 +1,5 @@
 
-export const education = [
+export const edata = [
     {
         date: '12/07',
         place: 'Diplomate (Board Certification) in Group Psychology'

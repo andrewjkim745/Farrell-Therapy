@@ -1,22 +1,25 @@
 import React from 'react'
 import { ThreeColumns } from '..'
-import { education } from '../../assets/cvdata'
+import { edata } from '../../assets/cvdata'
 
 
 
 
-export const Rates = ({ handleClick}) => {
+export const Rates = ({ handleClick }) => {
     return (
         <>
-        <ThreeColumns>
-            {education.map(object => {
-                <>
-                    <h1>{object.date}</h1>
-                    <p>{object.place}</p>
-                </>
-            })}
-        </ThreeColumns>
-        <h1 onClick={()=>handleClick('default')}></h1>
+            <ThreeColumns>
+                {edata.map(object => {
+                    return (
+                        <div class='p-6'>
+                            <h1>{object.date}</h1>
+                            <p>{object.place}</p>
+                        </div>
+                    )
+
+                })}
+            </ThreeColumns>
+            <h1 style={{ cursor: 'pointer' }} class='has-text-centered' onClick={() => handleClick('default')}>go back to default</h1>
         </>
     )
 }

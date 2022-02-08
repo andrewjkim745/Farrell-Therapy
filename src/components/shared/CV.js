@@ -1,10 +1,10 @@
 import React from 'react'
-import cvdata from '../../assets/cvdata'
+import { cvdata } from '../../assets/cvdata'
 
 
 
 
-export const CV = () => {
+export const CV = ({ handleClick }) => {
 
     return (
         <>

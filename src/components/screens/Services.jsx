@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ServicesDefault, ThreeColumns, CV } from '..'
+import { ServicesDefault, Rates, CV } from '..'
 
 export default function Services() {
 
@@ -17,8 +17,9 @@ export default function Services() {
                 return <ServicesDefault handleClick={handleClick}/>
             case 'CV':
                 return <CV handleClick={handleClick}/>
-            case 'room':
-                return 
+            case 'services':
+                return <Rates handleClick={handleClick}/>
+            default: return null
         }
     }
     return (

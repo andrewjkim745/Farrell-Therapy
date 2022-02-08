@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <div>
             <ImageContainer
-                image={dune}>
+                image={Farrell}>
                 <div>
                     <Title
                         aos='fade-up'

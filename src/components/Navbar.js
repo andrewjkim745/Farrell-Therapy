@@ -47,7 +47,7 @@ export const Navbar = () => {
               <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='/about' >About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
-              <MDBNavbarLink >Services</MDBNavbarLink>
+              <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='/services'>Services and Credentials</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='active'>
               <MDBNavbarLink onClick={() => setShowNavColor(!showNavColor)} href='#contact'>Contact</MDBNavbarLink>

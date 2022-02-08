@@ -8,7 +8,7 @@ currently live at https://robertfarrelltherapy.netlify.app/
 
 
 
-![](https://imgur.com/Coxr4QU.gif)
+![](https://imgur.com/Coxr4QU)
 
 
 

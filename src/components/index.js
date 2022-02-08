@@ -7,6 +7,7 @@ import { Navbar } from "./Navbar"
 import { Jumbotron } from "./shared/JumboTron"
 import { TwoColumns } from "./shared/TwoColumns"
 import { AltTwoColumns } from "./shared/AltTwoColumns"
+import { ServicesDefault } from "./shared/ServicesDefault"
 
 
 export {
@@ -18,6 +19,7 @@ export {
     Navbar,
     Jumbotron,
     TwoColumns,
-    AltTwoColumns
+    AltTwoColumns,
+    ServicesDefault
    
 }

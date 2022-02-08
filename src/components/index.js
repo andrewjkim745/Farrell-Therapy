@@ -9,6 +9,7 @@ import { TwoColumns } from "./shared/TwoColumns"
 import { AltTwoColumns } from "./shared/AltTwoColumns"
 import { ServicesDefault } from "./shared/ServicesDefault"
 import { ThreeColumns } from "./shared/ThreeColumns"
+import { CV } from "./shared/CV"
 
 export {
     TextContainer,
@@ -21,6 +22,7 @@ export {
     TwoColumns,
     AltTwoColumns,
     ServicesDefault,
-    ThreeColumns
+    ThreeColumns,
+    CV
    
 }

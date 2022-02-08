@@ -1,22 +1,28 @@
 import React, { useState } from 'react'
-import { ServicesDefault, ThreeColumns } from '..'
+import { ServicesDefault, ThreeColumns, CV } from '..'
 
 export default function Services() {
 
 
-    const [services, setServices] = useState(false)
-    const [cv, setCV] = useState(false)
+    const [screen, setScreen] = useState('default')
 
 
-    const screenSwitch = () => {
-        
+    const handleClick = (screenState) => {
+        setScreen(screenState)
     }
 
-
+    const switchScreens = () => {
+        switch(screen) {
+            case 'default':
+                return <ServicesDefault handleClick={handleClick}/>
+            case 'CV':
+                return <CV handleClick={handleClick}/>
+            case 'room':
+                return 
+        }
+    }
     return (
         <ServicesDefault
-        cvClick={()=>setCV(true)}
-        servicesClick={()=>setServices(true)}
         />
     )
 }

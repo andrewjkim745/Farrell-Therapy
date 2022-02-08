@@ -35,7 +35,7 @@ export const ServicesDefault = ({ handleClick }) => {
                         additonalClass='has-text-centered Dongle borderBottom'
                     />
                         <img
-                            onClick={()=> handleClick('room')}
+                            onClick={()=> handleClick('rates')}
                             src={room}
                             className='img-fluid rounded hover-shadow img-thumbnail'
                             alt='example'

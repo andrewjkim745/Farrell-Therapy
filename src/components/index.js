@@ -8,7 +8,7 @@ import { Jumbotron } from "./shared/JumboTron"
 import { TwoColumns } from "./shared/TwoColumns"
 import { AltTwoColumns } from "./shared/AltTwoColumns"
 import { ServicesDefault } from "./shared/ServicesDefault"
-
+import { ThreeColumns } from "./shared/ThreeColumns"
 
 export {
     TextContainer,
@@ -20,6 +20,7 @@ export {
     Jumbotron,
     TwoColumns,
     AltTwoColumns,
-    ServicesDefault
+    ServicesDefault,
+    ThreeColumns
    
 }

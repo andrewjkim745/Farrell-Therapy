@@ -4,7 +4,7 @@ import room from '../../assets/room.jpg'
 import CV from '../../assets/CVP.jpg'
 
 
-export const ServicesDefault = () => {
+export const ServicesDefault = ({ handleClick }) => {
 
         return <TextContainer >
             <Title
@@ -18,6 +18,7 @@ export const ServicesDefault = () => {
                         additonalClass='has-text-centered Dongle borderBottom'
                     />
                         <img
+                            onClick={()=> handleClick('CV')}
                             src={CV}
                             className='img-fluid rounded hover-shadow img-thumbnail'
                             alt='example'
@@ -34,6 +35,7 @@ export const ServicesDefault = () => {
                         additonalClass='has-text-centered Dongle borderBottom'
                     />
                         <img
+                            onClick={()=> handleClick('room')}
                             src={room}
                             className='img-fluid rounded hover-shadow img-thumbnail'
                             alt='example'

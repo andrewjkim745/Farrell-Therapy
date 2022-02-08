@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import { TextContainer, Title, ServicesDefault } from '..'
-import room from '../../assets/room.jpg'
-import CV from '../../assets/CVP.jpg'
+import { ServicesDefault, ThreeColumns } from '..'
 
 export default function Services() {
 
@@ -10,7 +8,15 @@ export default function Services() {
     const [cv, setCV] = useState(false)
 
 
+    const screenSwitch = () => {
+        
+    }
+
+
     return (
-        <ServicesDefault/>
+        <ServicesDefault
+        cvClick={()=>setCV(true)}
+        servicesClick={()=>setServices(true)}
+        />
     )
 }
